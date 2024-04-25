@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="topnav">
+        <div>
+            <img class="iconnsym" src="logo+name.png" alt="symbol">
+        </div>
+
+        <div class="navibar">
+            <a class="active" href="index.html">Home</a>
+            <a id="myButton">Contact</a>
+            <div id="myPopup" class="popup">
+                <div class="popup-content">
+                    <h1 style="color: rgb(54, 54, 54)">
+                        Contact Details :
+                    </h1>
+                    <p>
+                        phone no : 8767250339 <br>
+                        email.id : utkarshssalunke20@gmail.com
+                    </p>
+                    <button id="closePopup">
+                        Close
+                    </button>
+                </div>
+            </div>
+            <a href="about.html">About</a>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <input type="text" id="inputText" placeholder="Enter text here">
+        <button class="gen" onclick="generateQR()">Generate QR Code</button>
+        <div id="qrCode"></div>
+        <a id="downloadLink" download="qrcode.png"><button class="dbtn" id="downloadButton">Download QR
+                Code</button></a>
+    </div>
+    <h5 class="credit">-created & owned by Utkarsh salunke</h5>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>

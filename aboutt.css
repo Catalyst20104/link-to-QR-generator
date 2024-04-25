@@ -1,0 +1,20 @@
+body {
+    background-image: url('abouti.jpg');
+    background-size: cover;
+}
+
+.aboutinfo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    margin-left: 450px;
+    margin-right: 350px;
+}
+
+.hh1 {
+    width: 1200px;
+    height: 50px;
+    top: 30%;
+    margin: auto;
+    font-size: 3rem;
+}

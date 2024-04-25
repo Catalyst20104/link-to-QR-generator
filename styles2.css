@@ -1,0 +1,170 @@
+.btn {
+    background-color: rgb(66, 66, 66);
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color: antiquewhite;
+    padding: 20px 50px;
+    border-radius: 7%;
+}
+
+.topnav {
+    background-color: siennargb(95, 65, 52);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #222222;
+    text-align: center;
+    padding: 28px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navibar {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(105, 12, 12);
+}
+
+.topnav a.active {
+    color: #000000;
+}
+
+.iconnsym {
+    float: left;
+    height: 100px;
+    width: 270px;
+}
+
+body {
+    background-image: url('iback.jpg');
+    background-size: cover;
+}
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,
+            0,
+            0,
+            0.4);
+    display: none;
+}
+
+.popup-content {
+    background-image: url('iback.jpg');
+    background-size: cover;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 30%;
+    font-weight: bolder;
+}
+
+.popup-content button {
+    display: block;
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+
+    background-color: #333;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.qrcode {
+    position: relative;
+    text-align: center;
+
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.credit {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60%;
+    margin-bottom: 30px;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.gen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dbtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
